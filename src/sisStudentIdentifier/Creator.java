@@ -91,7 +91,7 @@ public class Creator
 						return grade1;
 					}
 
-				public void setGrade1(int grade1)
+				public void setGrade1(String grade1)
 					{
 						this.grade1 = grade1;
 					}
@@ -101,7 +101,7 @@ public class Creator
 						return grade2;
 					}
 
-				public String setGrade2(int grade2)
+				public void setGrade2(String grade2)
 					{
 						this.grade2 = grade2;
 					}
@@ -111,11 +111,12 @@ public class Creator
 						return grade3;
 					}
 
-				public String setGrade3(int grade3)
+				public void setGrade3(String grade3)
 					{
 						this.grade3 = grade3;
 					}
 
+				
 			
 
 	}

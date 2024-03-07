@@ -19,11 +19,11 @@ public class Creator
 				String period1;
 				String period2;
 				String period3;
-				int grade1;
-				int grade2;
-				int grade3;
+				String grade1;
+				String grade2;
+				String grade3;
 				
-				 public Creator (String f, String l, String p1, String p2, String p3, int g1, int g2, int g3)
+				 public Creator (String f, String l, String p1, String p2, String p3, String g1, String g2, String g3)
 				        {
 				        firstName = f;
 				        lastName = l;
@@ -86,7 +86,7 @@ public class Creator
 						this.period3 = period3;
 					}
 
-				public int getGrade1()
+				public String getGrade1()
 					{
 						return grade1;
 					}
@@ -96,22 +96,22 @@ public class Creator
 						this.grade1 = grade1;
 					}
 
-				public int getGrade2()
+				public String getGrade2()
 					{
 						return grade2;
 					}
 
-				public void setGrade2(int grade2)
+				public String setGrade2(int grade2)
 					{
 						this.grade2 = grade2;
 					}
 
-				public int getGrade3()
+				public String getGrade3()
 					{
 						return grade3;
 					}
 
-				public void setGrade3(int grade3)
+				public String setGrade3(int grade3)
 					{
 						this.grade3 = grade3;
 					}

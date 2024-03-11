@@ -5,9 +5,8 @@ public class main
 
 		public static void main(String[] args)
 		{
-				// TODO Auto-generated method stub
-			System.out.println("hehe");
-			System.out.println("haha");
+				
+			System.out.println("Select an option \n 1: Sort Students \n Find a student \n Option 3");
 
 			}
 

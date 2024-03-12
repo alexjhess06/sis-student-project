@@ -7,7 +7,7 @@ public class main
 		{
 				
 			System.out.println("Select an option \n 1: Sort Students \n Find a student \n Option 3");
-
+			System.out.println("Select another option \n 1: Sort Students \n Find a student \n Option 3");
 			}
 
 	}

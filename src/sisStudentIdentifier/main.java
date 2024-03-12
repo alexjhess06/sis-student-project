@@ -6,8 +6,13 @@ public class main
 		static Scanner userStringInput = new Scanner(System.in);
 		public static void main(String[] args)
 		{
+<<<<<<< HEAD
+				
+			System.out.println("Select an option \n 1: Sort Students \n Find a student \n Option 3");
+			System.out.println("Select another option \n 1: Sort Students \n Find a student \n Option 3");
+=======
 			
-			System.out.println("Select an option \n 1: Sort Students \n 2: Add or Delete a Student \n 3: Change a Student's Grades or Schedule");
+			System.out.println("Select an option \n 1: Sort Students \n 2: Add or Delete a Student \n 3: Change a Student's Grades or Schedules");
 			int option = userIntInput.nextInt();
 			
 			if(option == 1) {
@@ -86,6 +91,7 @@ public class main
 					System.out.println("Which period would you like to sort by?");
 				}
 				
+>>>>>>> branch 'main' of https://github.com/JacobSushinsky/SIS.git
 			}
 
 	}
